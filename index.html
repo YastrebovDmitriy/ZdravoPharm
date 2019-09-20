@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/slick-1.8.1/slick/slick-theme.css"/>
+    <title>Здравофарм Sport series</title>
+</head>
+<body>
+<header class="main-page">
+    <div class="top-bar">
+        <div class="logo">
+            <a href="#">
+                <img src="styles/svg/logo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="shop-link">
+            <a href="#"><span class="shop-link__title">Корзина</span><img src="styles/images/Shop-icon.png" alt="shop"></a>
+        </div>
+        <div class="burger bg-color" data-color="#439aca">
+            <div class="burger-btn">
+                <a href="#" class="btn-link">
+                    <span class="btn-link__open">Меню</span>
+                    <span class="btn-link__close">Закрыть</span>
+                    <div class="top"></div>
+                    <div class="midle"></div>
+                    <div class="bottom"></div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <nav class="menu-list">
+        <div class="list-wraper">
+            <ul class="top-list">
+                <li><a href="#advantages" class="bg-color menu-link" data-color="#773d1f"><img src="styles/svg/menu-arrow.svg">почему здравофарм</a></li>
+                <li><a href="#shop" class="bg-color menu-link" data-color="#30693a"><img src="styles/svg/menu-arrow.svg">магазин</a></li>
+                <li><a href="#audience" class="bg-color menu-link" data-color="#439aca"><img src="styles/svg/menu-arrow.svg">кто пользуется</a></li>
+                <li><a href="#partners" class="bg-color menu-link" data-color="#833c40"><img src="styles/svg/menu-arrow.svg">партнеры</a></li>
+                <li><a href="#clients" class="bg-color menu-link" data-color="#503461"><img src="styles/svg/menu-arrow.svg">наши клиенты</a></li>
+                <li><a href="#video" class="bg-color menu-link" data-color="#b85c19"><img src="styles/svg/menu-arrow.svg">видео-отзывы</a></li>
+                <li><a href="#ivents" class="bg-color menu-link" data-color="#2a456e"><img src="styles/svg/menu-arrow.svg">мероприятия</a></li>
+            </ul>
+            <div class="separation-line"></div>
+            <ul class="bottom-list">
+                <li><a href="" class="bg-color menu-link" data-color="#773d1f">instagram</a></li>
+                <li><a href="" class="bg-color menu-link" data-color="#773d1f">telegram</a></li>
+                <li><a href="" class="bg-color menu-link" data-color="#773d1f">youtube</a></li>
+                <div class="lang">
+                    <a class="lang__ru">RU</a>
+                    <span class="lang__border"></span>
+                    <a class="lang__ua">UA</a>
+                </div>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <div class="header-content">
+        <div class="call-btn">
+            <a href="#" class="call-btn__icon">
+                <div class="call-btn__bg">
+                    <img src="styles/images/Call-icon.png" alt="callback">
+                </div>
+            </a>
+        </div>
+        <div class="shop-window-bg window-bg">
+            <div class="shop-window">
+                <h1 class="shop-window__title">корзина</h1>
+                <div class="shop-window-wrap">
+                    <div class="close-btn close-btn_shop">
+                        <a href="#" class="close-icon">
+                            <span class="close-icon__title">закрыть</span>
+                            <div class="close-icon__crost-1"></div>
+                            <div class="close-icon__crost-2"></div>
+                        </a>
+                    </div>
+                    
+                    <div class="shop-basket">
+                        <div class="shop-item">
+                            <img class="shop-item__immage" src="styles/images/shop-item_03.png">
+                            <p class="shop-item__name">гинкло билоба</p>
+                            <span class="shop-item__cost">190 грн</span>
+                            <a href="#" class="close-icon">
+                                <span class="close-icon__title">закрыть</span>
+                                <div class="close-icon__crost-1"></div>
+                                <div class="close-icon__crost-2"></div>
+                            </a>
+                        </div>
+                        <div class="shop-item">
+                            <img class="shop-item__immage" src="styles/images/shop-item_03.png">
+                            <p class="shop-item__name">гинкло билоба</p>
+                            <span class="shop-item__cost">190 грн</span>
+                            <a href="#" class="close-icon">
+                                <span class="close-icon__title">закрыть</span>
+                                <div class="close-icon__crost-1"></div>
+                                <div class="close-icon__crost-2"></div>
+                            </a>
+                        </div>
+                        <div class="shop-item">
+                            <img class="shop-item__immage" src="styles/images/shop-item_03.png">
+                            <p class="shop-item__name">гинкло билоба</p>
+                            <span class="shop-item__cost">190 грн</span>
+                            <a href="#" class="close-icon">
+                                <span class="close-icon__title">закрыть</span>
+                                <div class="close-icon__crost-1"></div>
+                                <div class="close-icon__crost-2"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shop-form">
+                        <h2 class="shop-form__title">оформление заказа</h2>
+                        <input class="shop-form__name input" type="text" placeholder="имя">
+                        <input class="shop-form__phone input" type="text" placeholder="телефон">
+                        <input class="shop-form__email input" type="text" placeholder="адрес доставки">
+                        <div class="shop-form__confirm">
+                            <span>Итого:<span class="sum">10 000 грн</span></span>
+                            <button class="form-button">оформить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="call-window-bg window-bg">
+            <div class="call-window">
+                <div class="call-window-wrap">
+                    <div class="close-btn close-btn_call">
+                        <a href="#" class="close-icon">
+                            <span class="close-icon__title">закрыть</span>
+                            <div class="close-icon__crost-1"></div>
+                            <div class="close-icon__crost-2"></div>
+                        </a>
+                    </div>
+                    <div class="call-form">
+                        <h1>заказать звонок</h1>
+                        <input class="input-name input" type="text" placeholder="имя">
+                        <input class="input-phone input" type="text" placeholder="телефон">
+                        <button class="form-button">заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-wrap">
+            <a href="#" class="arrow-down">
+                <div class="arrow-line"></div>
+                <img src="styles/images/arrow-bottom_08.png">
+            </a>
+            <div class="shop-slider">
+                <div class="sl">
+                    <div class="sl__slide slide-1"><img src="styles/images/shop-item.png" alt=""></div>
+                    <div class="sl__slide slide-2"><img src="styles/images/shop-item.png" alt=""></div>
+                    <div class="sl__slide slide-3"><img src="styles/images/shop-item.png" alt=""></div>
+                </div>
+            </div>
+            <div class="socials">
+                <div class="socials-triger">
+                    <img src="styles/images/arrow-bottom_08.png">
+                    <span>подписаться</span>
+                </div>
+                <div class="socials-drop">
+                    <div><img src="styles/images/arrow-bottom_08.png"></div>
+                    <a href="#" class="telegram-icon"><img src="styles/svg/telegram.svg" alt="" width="20px" height="20px"></a>
+                    <a href="#" class="youtube-icon"><img src="styles/svg/youtube.svg" alt="" width="20px" height="20px"></a>
+                    <a href="#" class="innstagram-icon"><img src="styles/svg/instagram.svg" alt="" width="20px" height="20px"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-slider">
+            <div class="sl-text">
+                <div class="text-box">
+                    <h1 class="text-box__title title">создает повышенную физическую работоспособность</h1>
+                    <div class="separation-line"></div>
+                    <p class="text-box__text text">Lorem ipsum dolor sit amet, consectetur, adipisicing elit, sed do eiusmod tempor. i/cididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <div class="text-box__link-wraper"><a href="#" class="text-box__button">В МАГАЗИН</a></div>
+                </div>
+                <div class="text-box">
+                    <h1 class="text-box__title title">способствует улучшению кровообращения </h1>
+                    <div class="separation-line"></div>
+                    <p class="text-box__text text">Lorem ipsum dolor sit amet, consectetur, adipisicing elit, sed do eiusmod tempor. i/cididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <div class="text-box__link-wraper"><a href="#" class="text-box__button">В МАГАЗИН</a></div>
+                </div>
+                <div class="text-box">
+                    <h1 class="text-box__title title">имеет мягкие успокаивающие свойства</h1>
+                    <div class="separation-line"></div>
+                    <p class="text-box__text text">Lorem ipsum dolor sit amet, consectetur, adipisicing elit, sed do eiusmod tempor. i/cididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    <div class="text-box__link-wraper"><a href="#" class="text-box__button">В МАГАЗИН</a></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</header>
+<section>
+    <a id="advantages"></a>
+    <h1>Почему здравофарм</h1>
+</section>
+<section>
+    <a id="shop"></a>
+    <h1>Магазин</h1>
+</section>
+<section>
+    <a id="audience"></a>
+    <h1>Кто пользуется</h1>
+</section>
+<section>
+    <a id="partners"></a>
+    <h1>Партнеры</h1>
+</section>
+<section>
+    <a id="clients"></a>
+    <h1>Наши клиенты</h1>
+</section>
+<section>
+    <a id="video"></a>
+    <h1>Видео-отзывы</h1>
+</section>
+<section>
+    <a id="ivents"></a>
+    <h1>Мероприятия</h1>
+</section>
+    <script src="js/jQuery.js"></script>
+    <script src="js/js.js"></script>
+    <script type="text/javascript" src="styles/slick-1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
